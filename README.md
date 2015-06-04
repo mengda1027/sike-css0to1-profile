@@ -20,6 +20,12 @@
  + 文章模块就应该使用 article
  + 头部模块应该使用 header
 
+## D3
+- float布局避免内容包围飘动元素:将内容容器设置为overflow:hidden，将容器设置为bfc.[How does the CSS Block Formatting Context work][3]
+- 利用border-box修改默认的content-box布局[IE8+支持][4]
+
 
   [1]: http://www.sitepoint.com/web-foundations/collapsing-margins/
   [2]: http://www.w3.org/TR/2011/REC-CSS2-20110607/visudet.html#root-height
+  [3]: http://stackoverflow.com/a/6199172
+  [4]: http://caniuse.com/#search=box-sizing
