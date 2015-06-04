@@ -24,6 +24,12 @@
 - float布局避免内容包围飘动元素:将内容容器设置为overflow:hidden，将容器设置为bfc.[How does the CSS Block Formatting Context work][3]
 - 利用border-box修改默认的content-box布局[IE8+支持][4]
 
+## D4
+- 绝对定位（absolute）的的适用情况大概是：
+ 1. 有一个主要组件，在文件流里面正常布局；
+ 2. 这个组件有一个附属组件 (它的小伙伴)；
+ 3. 这个附属组件的位置相对于主要组件的位置。
+- 注意：父容器要指定relative,绝对定位组件要指定宽度
 
   [1]: http://www.sitepoint.com/web-foundations/collapsing-margins/
   [2]: http://www.w3.org/TR/2011/REC-CSS2-20110607/visudet.html#root-height
