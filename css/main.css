@@ -1,0 +1,139 @@
+body {
+    background-image: url("http://uploads.striking.ly/page/images/backgrounds/bg5.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.clearfix:after{
+    content:"";
+    display:table;
+    clear: both;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.main-header {
+    margin: 0 auto;
+    margin-top: 100px;
+    background-image: url("../img/banner.jpg");
+    height: 240px;
+    padding: 1px;
+}
+
+.main-header .main-header__avatar{
+    margin: 0 auto;
+    display:block;
+    margin-top: -70px;
+    margin-bottom:10px;
+    border:3px solid white;
+    width: 136px;
+
+    border-radius: 999px;
+    box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);
+}
+.main-header h1{
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+    font-family: 'Open Sans','helvetica',arial,sans-serif;
+    text-shadow: 0 1px rgba(0,0,0,0.3);
+    color:white;
+    margin-bottom: 20px;
+}
+
+.main-nav{
+    text-align: center;
+    background-color: #333;
+}
+
+.main-nav .nav_item{
+    display: inline-block;
+    list-style: none;
+    margin: 15px 10px;
+}
+.main-nav{
+    padding: 1px;
+}
+.main-nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.nav_item a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.nav_item a:hover{
+    text-decoration: underline;
+}
+
+.whatido h2:after{
+    content:"";
+    border-bottom: 3px solid black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin-left: -137px;
+    margin-top: -57px;
+}
+
+.info-section {
+    background-color: #fff;
+    padding: 1px;
+}
+
+.whatido__skill--code {
+    background: url(../img/skill-code.png) no-repeat center top;
+}
+
+.whatido__skill--design {
+    background: url(../img/skill-design.png) no-repeat center top;
+}
+
+.whatido__skill--product {
+    background: url(../img/skill-product.png) no-repeat center top;
+}
+.whatido__skill{
+    height: 130px;
+    float: left;
+    width: 33.3%;
+    margin-top: 60px;
+    padding-top:110px;
+}
+
+.whatido__skill h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.whatido__skill p{
+    margin: 0px auto;
+    text-align: center;
+    width: 90%;
+}
+
+.info-section__description{
+    text-align: center;
+}
+
+.info-section {
+    padding: 30px 60px;
+}
+
+.info-section header h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.info-section__description {
+    font-style: italic;
+}
+
