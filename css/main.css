@@ -11,6 +11,20 @@ body {
     clear: both;
 }
 
+.info-section header{
+    position: relative;
+}
+
+.info-section h2:after{
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid black;
+    width: 60px;
+    bottom: 30px;
+    left:50%;
+    margin-left: -30px;
+}
+
 .container {
     width: 960px;
     margin: 0 auto;
@@ -74,19 +88,6 @@ body {
     text-decoration: underline;
 }
 
-.whatido header{
-    position: relative;
-}
-.whatido h2:after{
-    content:"";
-    border-bottom: 3px solid black;
-    width: 60px;
-    position: absolute;
-    margin-left: -30px;
-    bottom: 30px;
-    left: 50%;
-}
-
 .info-section {
     background-color: #fff;
     padding: 1px;
@@ -141,6 +142,13 @@ body {
 }
 
 /*Education and Experience*/
+.education-experience ul{
+    margin-top: 30px;
+}
+.education-experience h2:after{
+    bottom: -10px;
+}
+
 .education-experience__list{
     margin-top:30px ;
 }
@@ -167,19 +175,6 @@ body {
     box-sizing: inherit;
 }
 
-.photos header{
-    position: relative;
-}
-
-.photos h2:after{
-    content: "";
-    position: absolute;
-    border-bottom: 3px solid black;
-    width: 60px;
-    bottom: 30px;
-    left:50%;
-    margin-left: -30px;
-}
 
 .photos .photos__list{
     margin: 30px 0px;
@@ -192,3 +187,73 @@ body {
 .photos__list li img{
     width: 100%;
 }
+
+/*get in touch*/
+.get-in-touch ul {margin-top: 30px;}
+.get-in-touch h2:after{
+    bottom: -10px;
+}
+.get-in-touch__list li{
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.get-in-touch__list p{
+    text-align: center;
+}
+.get-in-touch__list li img{
+    height: 100px;
+}
+
+/*leave a message*/
+.contact ul{
+    margin-top: 30px;
+}
+.contact h2:after{
+    bottom: -10px;
+}
+
+.contact input,
+.contact textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.contact button {
+    border: none;
+    border-radius: 9999px;
+
+    background: #ffd524;
+
+    cursor: pointer;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    color: #fff;
+    box-shadow: 0 3px 0 #daae1d;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    margin: 20px 0px;
+}
+
+.contact form{
+    width: 40%;
+    margin: 0px auto;
+    position: relative;
+}
+
+.contact label{
+    position: absolute;
+    left: -25%;
+    width: 20%;
+    display: inline-block;
+    text-align: right;
+    height: 36px;
+    line-height: 36px;
+    margin: 10px 5px;
+}
+
