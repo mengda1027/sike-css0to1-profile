@@ -74,14 +74,17 @@ body {
     text-decoration: underline;
 }
 
+.whatido header{
+    position: relative;
+}
 .whatido h2:after{
     content:"";
     border-bottom: 3px solid black;
-    height: 100px;
-    width: 100px;
+    width: 60px;
     position: absolute;
-    margin-left: -137px;
-    margin-top: -57px;
+    margin-left: -30px;
+    bottom: 30px;
+    left: 50%;
 }
 
 .info-section {
@@ -137,3 +140,55 @@ body {
     font-style: italic;
 }
 
+/*Education and Experience*/
+.education-experience__list{
+    margin-top:30px ;
+}
+.education-experience__list li{
+    margin:20px 0px;
+}
+.education-experience__list img{
+    height: 180px;
+    float: left;
+}
+.education-experience__list__description{
+    float:left;
+    overflow: hidden;
+    width: 60%;
+    margin-left: 40px;
+}
+
+/*photo*/
+.photos {
+    box-sizing: border-box;
+}
+
+.photos *{
+    box-sizing: inherit;
+}
+
+.photos header{
+    position: relative;
+}
+
+.photos h2:after{
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid black;
+    width: 60px;
+    bottom: 30px;
+    left:50%;
+    margin-left: -30px;
+}
+
+.photos .photos__list{
+    margin: 30px 0px;
+}
+.photos__list li{
+    width: 25%;
+    padding: 10px;
+    float: left;
+}
+.photos__list li img{
+    width: 100%;
+}
