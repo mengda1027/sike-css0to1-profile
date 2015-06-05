@@ -31,7 +31,15 @@
  3. 这个附属组件的位置相对于主要组件的位置。
 - 注意：父容器要指定relative,绝对定位组件要指定宽度
 
+## D5
+- 媒体查询（Media Query），IE8-9不支持，兼容方案[Respond.js][5]
+- Mobile-first vs Desktop-first [参考][6]
+- 实现Media Query只是响应式的第一步[参考][7]
+
   [1]: http://www.sitepoint.com/web-foundations/collapsing-margins/
   [2]: http://www.w3.org/TR/2011/REC-CSS2-20110607/visudet.html#root-height
   [3]: http://stackoverflow.com/a/6199172
   [4]: http://caniuse.com/#search=box-sizing
+  [5]: https://github.com/scottjehl/Respond
+  [6]: http://www.zell-weekeat.com/how-to-write-mobile-first-css/
+  [7]: http://www.html5rocks.com/en/mobile/responsivedesign/

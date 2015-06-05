@@ -15,12 +15,16 @@ body {
     position: relative;
 }
 
+.info-section h2{
+    position: relative;
+}
+
 .info-section h2:after{
     content: "";
     position: absolute;
     border-bottom: 3px solid black;
     width: 60px;
-    bottom: 30px;
+    bottom: -10px;
     left:50%;
     margin-left: -30px;
 }
@@ -257,3 +261,90 @@ body {
     margin: 10px 5px;
 }
 
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+    .container {
+        width: 100%;
+    }
+
+
+    .main-header h1{
+        font-size:32px ;
+    }
+    .main-nav .nav_item{
+        display: block;
+    }
+
+    .info-section{
+        padding: 10px;
+    }
+
+    li.whatido__skill{
+        margin-bottom:40px;
+        width: 100%;
+    }
+    .get-in-touch__list li img{
+        height: 100px;
+    }
+    .education-experience__list{
+        text-align: center;
+    }
+    .education-experience__list img{
+        height: 180px;
+        float: none;
+        text-align: center;
+    }
+    .education-experience__list__description{
+        float:none;
+        width: 80%;
+        margin: 0px auto;
+        text-align: left;
+    }
+
+    .education-experience h2 span{
+        display: block;
+    }
+
+    .photos__list li{
+        width: 100%;
+    }
+
+    .get-in-touch__list li{
+        box-sizing: border-box;
+        float: left;
+        width: 50%;
+    }
+
+    .contact form{
+        margin: 30px auto;
+        width: 100%;
+    }
+
+    .contact label{
+        position: static;
+        width: auto;
+        height: auto;
+        margin:0px 5px;
+        line-height: normal;
+    }
+    .contact input, .contact textarea{
+        margin: 0px auto;
+        margin-bottom: 20px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
